@@ -8,10 +8,34 @@
 </head>
 <body>
     <header>
-        <h1>Daily AI Blogs</h1>
-        <p>Exploring the latest in Artificial Intelligence</p>
+        <div class="header-inner">
+            <div>
+                <h1>Daily AI Blogs</h1>
+                <p>Exploring the latest in Artificial Intelligence every day.</p>
+            </div>
+            <nav>
+                <a href="#latest">Latest</a>
+                <a href="#topics">Topics</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+        <div class="header-actions">
+            <form class="search-bar" action="#" method="get">
+                <input type="search" name="q" placeholder="Search articles, tools, guides..." aria-label="Search blog posts">
+                <button type="submit">Search</button>
+            </form>
+            <div class="category-filters">
+                <button type="button">AI News</button>
+                <button type="button">Tools</button>
+                <button type="button">Ethics</button>
+                <button type="button">Research</button>
+            </div>
+        </div>
     </header>
     <main>
+        <section class="intro" id="latest">
+            <p>Welcome to the AI blog where each update highlights real AI progress, tools, and ethical insight.</p>
+        </section>
         <article class="post">
             <h2>AI in Healthcare: Revolutionizing Diagnostics</h2>
             <p class="date">April 29, 2026</p>
